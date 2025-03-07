@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Oswald";
+  background-color: rgb(89, 93, 107);
+}
+
+.login-estoque-primeira-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  .title-login {
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+  }
+  .container-div-login {
+    gap: 20px;
+    label {
+      padding-bottom: 20px;
+      color: aliceblue;
+    }
+    input {
+      width: 14rem;
+      height: 30px;
+      display: flex;
+      gap: 20px;
+      border-radius: 0.5rem;
+      background-color: rgb(180, 180, 180);
+      border: none;
+      color: aliceblue;
+      font-size: 1rem;
+      padding: 0.5rem;
+      font-family: "Oswald-ExtraLight.ttf";
+    }
+  }
+  .login-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.8rem;
+    gap: 1rem;
+  }
+  .button-div {
+    button {
+      background-color: rgb(270, 270, 270);
+      height: 1.4rem;
+      width: 5rem;
+      border: none;
+      border-radius: 0.4rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+  .atendimento-virtual {
+    padding-top: 9px;
+    font-size: 0.9rem;
+    a {
+      color: aliceblue;
+      font-style: italic;
+    }
+  }
+}

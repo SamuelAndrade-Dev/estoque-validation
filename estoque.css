@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  .marca-empresa {
+    width: 8rem;
+    height: 5rem;
+  }
+}
