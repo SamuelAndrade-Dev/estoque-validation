@@ -5,10 +5,26 @@
 
 .container-top {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   background-color: gray;
-  .marca-empresa {
+  gap: 12rem;
+  .marca-estoque {
     width: 8rem;
-    height: 5rem;
+    height: 4rem;
+    padding: 0.8rem;
+    padding-left: 3rem;
+  }
+}
+
+.nav-bar {
+  display: flex;
+  gap: 2.4rem;
+  svg {
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
   }
 }
