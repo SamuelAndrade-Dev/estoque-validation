@@ -21,7 +21,6 @@ body {
   .container-div-login {
     gap: 20px;
     label {
-      padding-bottom: 20px;
       color: aliceblue;
     }
     input {
@@ -35,6 +34,7 @@ body {
       color: aliceblue;
       font-size: 1.3rem;
       padding: 0.5rem;
+      margin-top: 2px;
       font-family: "Oswald-ExtraLight.ttf";
     }
   }
